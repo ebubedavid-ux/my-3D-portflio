@@ -30,12 +30,14 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+ //template_89dyljd
+    //service_ze8dnrt
+    //FgpmKvfJL6l5SHuR_
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_ze8dnrt',
+        'template_89dyljd',
         {
           from_name: form.name,
           to_name: "Ebube",
@@ -43,7 +45,7 @@ const Contact = () => {
           to_email: "ebubedavid1738@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'FgpmKvfJL6l5SHuR_'
       )
       .then(
         () => {
