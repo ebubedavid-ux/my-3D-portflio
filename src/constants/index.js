@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  
 } from "../assets";
 
 export const navLinks = [
@@ -195,6 +196,9 @@ const testimonials = [
    // image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
+
+
+
 
 const projects = [
   {

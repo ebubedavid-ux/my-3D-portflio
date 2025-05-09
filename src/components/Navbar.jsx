@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { menu, close } from "../assets";
+import { logo2, menu, close } from "../assets";
 
 
 const Navbar = () => {
@@ -44,10 +44,10 @@ const Navbar = () => {
           }}
         >
          
-       
+          <img src={logo2} alt="logo2"   className="w-10 h-10 rounded-full object-cover border-4 border-white shadow-lg"/>
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Ebube David &nbsp;
-            <span className='sm:block hidden'></span>
+            <span className='sm:block hidden'>| Fontend dev</span>
           </p>
         </Link>
 
