@@ -220,7 +220,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://enoblog-ebube-davids-projects.vercel.app/",
   },
   {
     name: "Brainwave",
@@ -241,7 +241,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://brainwave-landing-page-zeta.vercel.app/",
   },
   {
     name: "HooBank",
@@ -262,7 +262,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://blog-app-fwa5.vercel.app/",
   },
 ];
 
